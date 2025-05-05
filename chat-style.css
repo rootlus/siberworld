@@ -2,6 +2,10 @@
   display: none;
 }
 
+#fb-button {
+  display: none;
+}
+
 .twitter-button {
   display: none;
 }
