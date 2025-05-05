@@ -3,10 +3,18 @@
 
 SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan küçük bir projedir.
 
+# Özellikler/Servisler
 
-# Planlanan Özellikler
+| Özellik/Servis            |
+| --------------------------|
+| Youtube engeleme bypass   |
+| HTML oyunlar              |
+| Proxy web                 |
+| Front-End sosyal medyalar |
 
-| Özellik                  | Durum    |
+
+# Planlanan Özellik/Servisler
+
+| Özellik/Servis           | Durum    |
 | -------------------------| -------- |
-| Youtube Engeleme Bypass  |   🟢     |
-| RSS Haber                |   🔴     |
+| RSS haber                |   🔴     |
