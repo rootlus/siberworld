@@ -4,6 +4,9 @@
 SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan küçük bir projedir.
 
 
-| Plan       | Durum    |
-| --------   | -------- |
-| RSS Haber  |   🔴     |
+# Planlanan Özellikler
+
+| Plan            | Durum    |
+| --------        | -------- |
+| Youtube Bypass  |   🟢     |
+| RSS Haber       |   🔴     |
