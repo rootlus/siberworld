@@ -1,7 +1,3 @@
-.join-or {
-  display: none;
-}
-
 #fb-button {
   display: none;
 }
@@ -14,14 +10,7 @@
   display: none;
 }
 
-.button {
-  display: none;
-}
 
-.join-button {
-  display: none;
-}
-
-.join-button {
+#become-owner {
   display: none;
 }
