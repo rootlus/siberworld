@@ -19,4 +19,4 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 | Özellik/Servis           | Durum     |
 | -------------------------| --------  |
 |📰 RSS haber              |   🔴     |
-|💬 Canlı sohbet           |   🔴     |
+|💬 Canlı sohbet           |   🟢     |
