@@ -16,6 +16,7 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 
 # Planlanan Özellik/Servisler
 
-| Özellik/Servis           | Durum    |
-| -------------------------| -------- |
+| Özellik/Servis           | Durum     |
+| -------------------------| --------  |
 |📰 RSS haber              |   🔴     |
+|💬 Canlı sohbet           |   🔴     |
