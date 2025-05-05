@@ -6,7 +6,7 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 
 # Planlanan Özellikler
 
-| Plan                     | Durum    |
+| Özellik                  | Durum    |
 | -------------------------| -------- |
 | Youtube Engeleme Bypass  |   🟢     |
 | RSS Haber                |   🔴     |
