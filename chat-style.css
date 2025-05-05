@@ -6,10 +6,34 @@
   display: none;
 }
 
+#button {
+  display: none;
+}
+
+#join-button {
+  display: none;
+}
+
+#join-button {
+  display: none;
+}
+
 .twitter-button {
   display: none;
 }
 
 .fb-button {
+  display: none;
+}
+
+.button {
+  display: none;
+}
+
+.join-button {
+  display: none;
+}
+
+.join-button {
   display: none;
 }
