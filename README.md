@@ -7,7 +7,7 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 
 | Özellik/Servis             |
 | ---------------------------|
-|🌊 2000'ler tarzı tema      |
+|🌊 Aero tarzı tema          |
 |📺 Youtube engeleme bypass  |
 |🎮 HTML oyunlar             |
 |🌐 Proxy web                |

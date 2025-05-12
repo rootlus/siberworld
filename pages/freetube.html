@@ -9,44 +9,58 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
+            font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
         }
 
         body {
-            background: linear-gradient(to bottom, #003366, #000022);
-            color: #fff;
+            background: #0c0c14;
+            background: linear-gradient(135deg, #0c0c14 0%, #141428 100%);
+            color: #e0e0e0;
             text-align: center;
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
             background-attachment: fixed;
+            min-height: 100vh;
         }
 
         .hero {
             margin-bottom: 40px;
             padding: 30px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            box-shadow: 0 0 20px rgba(0, 180, 255, 0.5);
-            backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(30, 35, 50, 0.7);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 120, 215, 0.4);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(70, 130, 180, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(100, 180, 255, 0.7), transparent);
         }
 
         .hero h1 {
             font-size: 3rem;
             color: #fff;
-            text-shadow: 0 0 10px #00ccff, 0 0 20px #0099ff;
-            letter-spacing: 2px;
-            font-weight: bold;
+            text-shadow: 0 0 8px rgba(0, 120, 215, 0.8);
+            letter-spacing: 1px;
+            font-weight: 600;
         }
 
         .tools {
             padding: 25px;
-            background: linear-gradient(to bottom, rgba(120, 180, 255, 0.2), rgba(50, 100, 200, 0.2));
-            border-radius: 15px;
-            border: 1px solid rgba(100, 200, 255, 0.3);
+            background: rgba(30, 35, 50, 0.6);
+            border-radius: 8px;
+            border: 1px solid rgba(70, 130, 180, 0.3);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(3px);
+            backdrop-filter: blur(8px);
             position: relative;
             overflow: hidden;
         }
@@ -54,112 +68,128 @@
         .tools::before {
             content: "";
             position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%, transparent 70%);
-            opacity: 0.5;
-            pointer-events: none;
-            z-index: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(100, 180, 255, 0.5), transparent);
+        }
+
+        .tools::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            right: 20%;
+            height: 1px;
+            background: linear-gradient(to right, transparent, rgba(100, 180, 255, 0.3), transparent);
         }
 
         input {
             width: 80%;
-            padding: 12px;
+            padding: 12px 15px;
             margin-bottom: 15px;
-            border-radius: 25px;
-            border: 1px solid rgba(100, 200, 255, 0.5);
-            background: rgba(30, 50, 80, 0.6);
+            border-radius: 4px;
+            border: 1px solid rgba(70, 130, 180, 0.4);
+            background: rgba(20, 30, 50, 0.6);
             color: #fff;
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 150, 255, 0.3);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 5px rgba(0, 120, 215, 0.2);
             position: relative;
             z-index: 1;
             font-size: 1rem;
+            transition: all 0.2s ease;
         }
 
         input:focus {
             outline: none;
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 150, 255, 0.5);
-            border: 1px solid rgba(100, 200, 255, 0.8);
+            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2), 0 0 8px rgba(0, 120, 215, 0.4);
+            border: 1px solid rgba(70, 130, 180, 0.7);
         }
 
         button {
-            background: linear-gradient(to bottom, #0099ff, #0066cc);
+            background: linear-gradient(to bottom, rgba(0, 120, 215, 0.9), rgba(0, 90, 180, 0.9));
             color: white;
-            border: none;
-            border-radius: 25px;
-            padding: 12px 25px;
+            border: 1px solid rgba(100, 180, 255, 0.4);
+            border-radius: 4px;
+            padding: 10px 25px;
             cursor: pointer;
             margin: 15px 0;
-            font-weight: bold;
+            font-weight: 500;
             position: relative;
             z-index: 1;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.4);
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
             font-size: 1rem;
             transition: all 0.2s ease;
         }
 
         button:hover {
-            background: linear-gradient(to bottom, #00bbff, #0077ee);
-            box-shadow: 0 5px 15px rgba(0, 150, 255, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+            background: linear-gradient(to bottom, rgba(0, 140, 235, 0.9), rgba(0, 110, 200, 0.9));
+            box-shadow: 0 4px 10px rgba(0, 120, 215, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2);
         }
 
         iframe {
             width: 100%;
             height: 450px;
             margin: 25px 0;
-            border-radius: 15px;
-            border: 1px solid rgba(100, 200, 255, 0.3);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 6px;
+            border: 1px solid rgba(70, 130, 180, 0.4);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
             position: relative;
             z-index: 1;
         }
 
         p {
             margin: 20px 0;
-            color: #ccddff;
+            color: #b8c7e0;
             font-size: 1rem;
-            line-height: 1.4;
+            line-height: 1.5;
             position: relative;
             z-index: 1;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
         }
 
         .btn_go {
             display: inline-block;
-            background: linear-gradient(to bottom, #0099ff, #0066cc);
+            background: linear-gradient(to bottom, rgba(0, 120, 215, 0.9), rgba(0, 90, 180, 0.9));
             color: #fff;
             padding: 10px 20px;
             text-decoration: none;
-            border-radius: 25px;
-            font-weight: bold;
+            border-radius: 4px;
+            font-weight: 500;
             margin-top: 15px;
             position: relative;
             z-index: 1;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.4);
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(100, 180, 255, 0.4);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
             transition: all 0.2s ease;
         }
 
         .btn_go:hover {
-            background: linear-gradient(to bottom, #00bbff, #0077ee);
-            box-shadow: 0 5px 15px rgba(0, 150, 255, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.6);
+            background: linear-gradient(to bottom, rgba(0, 140, 235, 0.9), rgba(0, 110, 200, 0.9));
+            box-shadow: 0 4px 10px rgba(0, 120, 215, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
         }
 
-        /* Add 2000s style reflections and orbs */
+        .btn_go:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Aero glass effect elements */
         .orb {
             position: fixed;
-            width: 100px;
-            height: 100px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
-            background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, rgba(100, 200, 255, 0.3) 40%, transparent 70%);
-            filter: blur(2px);
+            background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.7) 0%, rgba(70, 130, 180, 0.2) 40%, transparent 70%);
+            filter: blur(3px);
             pointer-events: none;
             z-index: -1;
         }
@@ -179,7 +209,7 @@
             width: 600px;
             height: 600px;
             border-radius: 50%;
-            background: radial-gradient(ellipse at center, rgba(0, 150, 255, 0.1) 0%, transparent 70%);
+            background: radial-gradient(ellipse at center, rgba(0, 120, 215, 0.05) 0%, transparent 70%);
             pointer-events: none;
             z-index: -1;
         }
@@ -192,7 +222,7 @@
         .glow-2 {
             bottom: -200px;
             right: -100px;
-            background: radial-gradient(ellipse at center, rgba(100, 100, 255, 0.1) 0%, transparent 70%);
+            background: radial-gradient(ellipse at center, rgba(60, 80, 170, 0.05) 0%, transparent 70%);
         }
     </style>
 </head>
@@ -227,8 +257,8 @@
             var final_link = "https://www.youtube-nocookie.com/embed/" + video_id;
             final_link = final_link.replace("&feature=emb_rel_end", "");
             document.getElementById("video").src = final_link;
-            document.getElementById("video").style.border = "1px solid rgba(100, 200, 255, 0.5)";
-            document.getElementById("video").style.boxShadow = "0 0 20px rgba(0, 180, 255, 0.5)";
+            document.getElementById("video").style.border = "1px solid rgba(70, 130, 180, 0.5)";
+            document.getElementById("video").style.boxShadow = "0 0 15px rgba(0, 120, 215, 0.5)";
         }
     </script>
 </body>
