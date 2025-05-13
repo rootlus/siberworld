@@ -3,8 +3,8 @@
 
 SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan küçük bir projedir.
 
-* [Biz kimiz?](#Biz-Kimiz?)
-* [Neden?](#Neden?)
+* [Biz kimiz?](#biz-kimiz)
+* [Neden?](#neden)
 * [Özellikler-Servisler](#özellikler-servisler)
 * [Kazançlarımız](#kazançlarımız)
 
