@@ -5,6 +5,7 @@
   font-family: 'Segoe UI', 'Calibri', Arial, sans-serif;
 }
 
+
 body {
   background: #0c0c14;
   background: linear-gradient(135deg, #0c0c14 0%, #141428 100%);
@@ -12,6 +13,7 @@ body {
   padding: 20px;
   background-attachment: fixed;
   min-height: 100vh;
+  font-size: 16px;
 }
 
 .container {
@@ -215,6 +217,10 @@ hr {
 @media (max-width: 768px) {
   .service-grid {
     grid-template-columns: 1fr;
+  }
+
+  body {
+    font-size: 18px;
   }
   
   header {
