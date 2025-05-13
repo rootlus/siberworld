@@ -3,7 +3,18 @@
 
 SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan küçük bir projedir.
 
-# Özellikler/Servisler
+* [Biz kimiz?](#biz-kimiz?)
+* [Neden?](#neden?)
+* [Özellikler-Servisler](#özellikler-servisler)
+* [Kazançlarımız](#kazançlarımız)
+
+# Biz kimiz?
+Özgürlük isteyen bir toplum. Özgürlük, temel bir haktır ve bundan herkes faydalanmalı.
+
+# Neden?
+Çünkü yapabiliyoruz.
+
+# Özellikler-Servisler
 
 | Özellik/Servis             |
 | ---------------------------|
@@ -18,4 +29,8 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 
 | Özellik/Servis           | Durum     |
 | -------------------------| --------  |
-|📰 RSS haber              |   🔴      |
+|📰 RSS haber              |   🔴     |
+
+# Kazançlarımız
+
+Kazançlarımız şaun olmasada google reklamları ile yapılması düşünülüyor. Bağış yapmak isterseniz: https://kreosus.com/siber
