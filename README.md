@@ -33,4 +33,4 @@ SiberWorld, sansür karşıtı ve insanlara yardımcı olmak için oluşturulan 
 
 # Kazançlarımız
 
-Kazançlarımız şaun olmasada google reklamları ile yapılması düşünülüyor. Bağış yapmak isterseniz: https://kreosus.com/siber
+Kazançlarımız şuan olmasada reklamlar(google adsense vs.) ile yapılması düşünülüyor. Bağış yapmak isterseniz: https://kreosus.com/siber
